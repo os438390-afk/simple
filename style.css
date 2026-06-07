@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.middle li {
+  color: rgb(45, 44, 44);
+}
+
+.carousel-container {
+  width: 90%;
+  max-width: 1300px;
+  overflow: hidden;
+  margin-left: 110px;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  transition: 0.5s ease;
+}
+
+.slide {
+  min-width: 100%;
+  height: 700px;
+  border-radius: 20px;
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.dicount {
+  color: rgb(212 127 49);
+}
+
+.images {
+  position: relative;
+  bottom: 100px;
+  margin-top: 100px;
+}
+
+button {
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+
+.page-1 {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  position: relative;
+  width: 92;
+  max-width: 1400px;
+  overflow: hidden;
+  margin-left: 70px;
+
+}
+
+.main {
+  display: flex;
+  gap: 40px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding: 20px;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  min-width: 420px;
+  height: 460px;
+}
+
+.card img {
+  width: 450px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.heading h1 {
+  padding-left: 100px;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.paragraph {
+  padding-left: 100px;
+  letter-spacing: 0.2mm;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.page-2 {
+  margin-top: 100px;
+  height: 500px;
+  display: flex;
+}
+
+.furnish-template {
+  width: 480px;
+}
+
+.Quick-link {
+  width: 300px;
+  margin-left: 30px;
+}
+
+.Quick-link ul {
+  text-transform: capitalize;
+  margin-top: 80px;
+  color: white;
+}
+
+.Quick-link li {
+  padding-top: 10px;
+}
+
+.our-menu {
+  width: 300px;
+}
+
+.get-in-touch {
+  width: 300px;
+}
+
+.furnish-template h3 {
+  padding-top: 85px;
+  padding-left: 60px;
+  color: white;
+}
+
+.furnish-template p {
+  padding-left: 60px;
+  line-height: 6mm;
+  color: white;
+}
+
+.our-menu ul {
+  margin-top: 80px;
+  color: white;
+}
+
+.our-menu li {
+  padding-top: 10.5px;
+}
+
+.get-in-touch ul {
+  margin-top: 80px;
+  color: white;
+}
+
+.get-in-touch li {
+  padding-top: 10px;
+}
+
+i {
+  color: black;
+}
+
+.icon {
+  width: 260px;
+  height: 40px;
+}
+
+.location {
+  width: 50px;
+  height: 40px;
+}
+
+.box-2 {
+  width: 210px;
+  height: 40px;
+}
+
+.imgage {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .number {
+    display: none;
+  }
+
+  .imgage {
+    display: block;
+    font-size: 20px;
+  }
+
+  .carousel-container {
+    margin: 20px;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  .images {
+    margin: 0;
+    padding: 0;
+  }
+
+  .one {
+    position: relative;
+    bottom: 88px;
+  }
+
+  strong {
+    position: relative;
+    bottom: 95px;
+  }
+
+  button {
+    position: relative;
+    bottom: 95px;
+  }
+
+  .heading h1 {
+    padding-left: 20px;
+    font-size: 50px;
+    position: absolute;
+    top: 630px;
+  }
+
+  .paragraph {
+    position: relative;
+    bottom: 40px;
+    padding-left: 20px;
+  }
+
+  .card {
+    min-width: 350px;
+    height: 480px;
+  }
+
+  .card img {
+    width: 350px;
+  }
+
+  .main-container {
+    margin: 0;
+    position: relative;
+    bottom: 30px;
+  }
+
+}
